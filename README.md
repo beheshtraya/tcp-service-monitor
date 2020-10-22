@@ -1,4 +1,4 @@
-#TCP Service Monitor
+# TCP Service Monitor
 A service can be registered with these parameters:
 - host
 - port
@@ -9,13 +9,13 @@ A service can be registered with these parameters:
 - outage_end_time
 
 
-##run program
+## run program
 `python main.py`
 
-##run unit tests
+## run unit tests
 `python -m unittest test.py`
 
-##Sample TCP Server
+## Sample TCP Server
 A sample TCP server is written in utils.py that can be started and terminated to test main.py. 
 
 `python utils.py` 
